@@ -4,7 +4,7 @@ Bu depo uygulama için imzalı, herkese açık koridor veri paketlerini içerir.
 
 ## Kapsam
 
-Paket 5: Mevcut Bursa–Ankara, Kulu–Konya ve Ankara–Aksaray yönlerine Sivrihisar → Afyonkarahisar eklendi. Toplam 23 koridor / 7 güzergâh seçeneği. Yayın hazırlığı 6 Kasım 2026.
+Paket 6: Önceki 23 koridora Susurluk–Balıkesir iki yön ve Karacabey → Nilüfer tek yön eklendi. Toplam 26 koridor / 10 güzergâh seçeneği. Yayın hazırlığı 6 Kasım 2026.
 
 - Bursa–Ankara: 12 koridor, koordinat kayıt tarihi 19 Ekim 2026.
 - Kulu–Konya: 6 koridor, kaynak kayıt tarihi 3 Kasım 2026. Her yönde 40 + 14 + 70 = 124 km denetim bölümü. Ankara–Kulu ve Konya şehir içi kapsam dışıdır.
@@ -39,3 +39,13 @@ Gölbaşı–Şereflikoçhisar aday yol çizgileri kaynakta belirtilen 116 km’
 Yalnız Sivrihisar → Afyonkarahisar yönündeki 1233 numaralı kayıt eklendi. Kaynaktaki 113 km mesafe ve 110 km/sa limit aynen korundu. Aday yol çizgisi yaklaşık 115,545 km (%2,19 fark). Bu seçenek Ankara–Afyon yolunun tamamını kapsamaz.
 
 Afyon → Sivrihisar dönüşü yanlış yön girişi / belirsiz yol eşleşmesi nedeniyle yayımlanmadı. Uzun Afyon–Ankara koridoru da kapsam dışıdır. Önceki 22 koridorun kayıtları ve çizgileri değişmedi. Tüm 23 koridor genişletilmiş veri havuzuyla sentetik geçiş testinden geçti; bu, saha veya kamera konumu doğrulaması değildir.
+
+## Susurluk–Balıkesir ve Karacabey → Nilüfer
+
+6 Kasım 2026 kaynak sorgusu: https://radarnoktalari.com.tr/?gz_from=1832&gz_to=2090
+
+Susurluk → Balıkesir (1298) ve Balıkesir → Susurluk (1302): her biri kaynakta 39 km, 110 km/sa. Karacabey → Nilüfer (1346): kaynakta 36 km, 110 km/sa. Kaynak alanları değiştirilmedi. OSRM aday çizgileri sırasıyla yaklaşık 39,58 / 39,59 / 36,04 km.
+
+1302 yol çizgisinde ters yönün yerel yol doğrultusundan türetilen yön kısıtları kullanıldı. Bu, kamera yönünün bağımsız veya saha doğrulaması değildir. Kamera uçları değiştirilmedi. 2, 5 ve 8 saniyelik sentetik örnekler geçti; seyrek giriş/çıkış korumaları korunur.
+
+Bu seçenekler Bursa–Balıkesir yolunun tamamı değildir. Nilüfer–Susurluk uzun koridorları mesafe uyuşmazlıkları nedeniyle dışarıda; Karacabey–Nilüfer dönüşü bu pakette yok. Önceki 23 kayıt ve yol çizgileri aynen korundu.
